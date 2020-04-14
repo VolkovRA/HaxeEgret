@@ -28,8 +28,11 @@ class Main
 		// display:
 		trace(BlendMode.ADD);
 		trace(ChildrenSortMode.DECREASE_Y);
+		trace(StageScaleMode.EXACT_FIT);
+		trace(OrientationMode.LANDSCAPE);
 		trace(DisplayObject);
 		trace(DisplayObjectContainer);
+		trace(Stage);
 		
 		// filters:
 		trace(Filter);
