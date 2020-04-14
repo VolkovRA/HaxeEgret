@@ -1,10 +1,10 @@
 package egret.display;
 
 import egret.events.EventDispatcher;
+import egret.filters.Filter;
 import egret.geom.Matrix;
 import egret.geom.Point;
 import egret.geom.Rectangle;
-import haxe.extern.EitherType;
 
 /**
  * The DisplayObject class is the base class for all objects that can be placed on the display list. The display list
@@ -65,10 +65,6 @@ extern class DisplayObject extends EventDispatcher
 	 */
 	public function new();
 	
-		
-	////////////////
-	//   STATIC   //
-	////////////////
 	
 	
 	////////////////////
@@ -330,7 +326,7 @@ extern class DisplayObject extends EventDispatcher
 	 * @version Egret 3.1.0
 	 * @platform Web
 	 */
-	public var filters:Array<EitherType<Filter, CustomFilter>>;
+	public var filters:Array<Filter>;
 	
 	/**
 	 * Set a tint color for the current object.

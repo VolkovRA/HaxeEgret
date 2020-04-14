@@ -3,6 +3,7 @@ package;
 import egret.*;
 import egret.display.*;
 import egret.events.*;
+import egret.filters.*;
 import egret.geom.*;
 
 class Main
@@ -26,6 +27,14 @@ class Main
 		
 		// display:
 		trace(DisplayObject);
-		trace(BlendMode);
+		trace(BlendMode.ADD);
+		
+		// filters:
+		trace(Filter);
+		trace(BlurFilter);
+		trace(ColorMatrixFilter);
+		trace(GlowFilter);
+		trace(DropShadowFilter);
+		trace(CustomFilter);
 	}
 }
