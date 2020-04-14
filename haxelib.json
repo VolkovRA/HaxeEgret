@@ -1,0 +1,11 @@
+{
+	"name": "Egret",
+	"url": "https://github.com/VolkovRA/HaxeEgret/blob/master/README.md",
+	"license": "MIT",
+	"tags": ["egret", "html5", "canvas", "game"],
+	"description": "The Haxe high quality extern definitions for Egret",
+	"version": "0.0.1",
+	"releasenote": "Development in progress",
+	"contributors": ["VolkovRA"],
+	"classPath": "lib"
+}
