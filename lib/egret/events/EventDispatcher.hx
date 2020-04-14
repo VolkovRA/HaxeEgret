@@ -1,27 +1,40 @@
-package egret;
+package egret.events;
 
 import js.lib.Function;
 
 /**
- * The IEventDispatcher interface defines methods for adding or removing event listeners, checks whether specific types
- * of event listeners are registered, and dispatches events. Event targets are an important part of the Egret event model.
- * The event target serves as the focal point for how events flow through the display list hierarchy. When an event
- * such as a touch tap occurs, an event object is dispatched into the event flow from the root of the display list.
- * The event object makes a round-trip journey to the event target, which is conceptually divided into three phases: <br/>
- * the capture phase includes the journey from the root to the last node before the event target's node; the target
- * phase includes only the event target node; and the bubbling phase includes any subsequent nodes encountered on the
- * return trip to the root of the display list.In general, the easiest way for a user-defined class to gain event
- * dispatching capabilities is to extend EventDispatcher. If this is impossible (that is, if the class is already
- * extending another class), you can instead implement the IEventDispatcher interface, create an EventDispatcher member,
- * and write simple hooks to route calls into the aggregated EventDispatcher.
- * @see egret.EventDispatcher
+ * The EventDispatcher class is the base class for all classes that dispatchEvent events. The EventDispatcher class implements
+ * the IEventDispatcher interface and is the base class for the DisplayObject class. The EventDispatcher class allows
+ * any object on the display list to be an event target and as such, to use the methods of the IEventDispatcher interface.
+ * Event targets are an important part of the Egret event model. The event target serves as the focal point for how events
+ * flow through the display list hierarchy. When an event such as a touch tap, Egret dispatches an event object into the
+ * event flow from the root of the display list. The event object then makes its way through the display list until it
+ * reaches the event target, at which point it begins its return trip through the display list. This round-trip journey
+ * to the event target is conceptually divided into three phases: <br/>
+ * the capture phase comprises the journey from the root to the last node before the event target's node, the target
+ * phase comprises only the event target node, and the bubbling phase comprises any subsequent nodes encountered on
+ * the return trip to the root of the display list. In general, the easiest way for a user-defined class to gain event
+ * dispatching capabilities is to extend EventDispatcher. If this is impossible (that is, if the class is already extending
+ * another class), you can instead implement the IEventDispatcher interface, create an EventDispatcher member, and write simple
+ * hooks to route calls into the aggregated EventDispatcher.
+ * @see egret.IEventDispatcher
  * @version Egret 2.4
  * @platform Web,Native
  * @author VolkovRA
  */
-@:native("egret.IEventDispatcher")
-extern interface IEventDispatcher extends IHashObject 
+@:native("egret.EventDispatcher")
+extern class EventDispatcher extends HashObject implements IEventDispatcher 
 {
+	/**
+	 * Create an instance of the EventDispatcher class.
+	 * @param	target	The target object for events dispatched to the EventDispatcher object. This parameter is used when
+	 * 					the EventDispatcher instance is aggregated by a class that implements IEventDispatcher; it is necessary so that the
+	 * 					containing object can be the target for events. Do not use this parameter in simple cases in which a class extends EventDispatcher.
+	 * @version Egret 2.4
+	 * @platform Web,Native
+	 */
+	public function new(?target:IEventDispatcher);
+	
 	/**
 	 * Registers an event listener object with an EventDispatcher object so that the listener receives notification of an
 	 * event. You can register event listeners on all nodes in the display list for a specific type of event, phase,
@@ -52,7 +65,7 @@ extern interface IEventDispatcher extends IHashObject
 	 *						the number, the higher the priority. All listeners with priority n are processed before listeners of priority n-1.
 	 *						If two or more listeners share the same priority, they are processed in the order in which they were added.
 	 *						The default priority is.
-	 * @version	Egret 2.4
+	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
 	public function addEventListener(type:String, listener:Function, thisObject:Dynamic, ?useCapture:Bool, ?priority:Float):Void;
@@ -116,6 +129,16 @@ extern interface IEventDispatcher extends IHashObject
 	 * @platform Web,Native
 	 */
 	public function dispatchEvent(event:Event):Bool;
+	
+	/**
+	 * Distribute a specified event parameters.
+	 * @param	type		The type of the event. Event listeners can access this information through the inherited type property.
+	 * @param	bubbles		Determines whether the Event object bubbles. Event listeners can access this information through
+	 * 						the inherited bubbles property.
+	 * @param	data		Data.
+	 * @param	cancelable	Determines whether the Event object can be canceled. The default values is false.
+	 */
+	public function dispatchEventWith(type:String, ?bubbles:Bool, ?data:Dynamic, ?cancelable:Bool):Bool;
 	
 	/**
 	 * Checks whether an event listener is registered with this EventDispatcher object or any of its ancestors for the

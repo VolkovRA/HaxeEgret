@@ -1,6 +1,7 @@
 package;
 
 import egret.*;
+import egret.events.*;
 import egret.geom.*;
 
 class Main

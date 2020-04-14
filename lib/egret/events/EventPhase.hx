@@ -1,4 +1,4 @@
-package egret;
+package egret.events;
 
 /**
  * The EventPhase class provides values for the eventPhase property of the Event class.
