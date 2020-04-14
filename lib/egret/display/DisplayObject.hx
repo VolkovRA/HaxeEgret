@@ -121,7 +121,7 @@ extern class DisplayObject extends EventDispatcher
 	 * the local coordinate system of the enclosing DisplayObjectContainer. Thus, for a DisplayObjectContainer
 	 * rotated 90° counterclockwise, the DisplayObjectContainer's children inherit a coordinate system that is
 	 * rotated 90° counterclockwise. The object's coordinates refer to the registration point position.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -133,7 +133,7 @@ extern class DisplayObject extends EventDispatcher
 	 * the local coordinate system of the enclosing DisplayObjectContainer. Thus, for a DisplayObjectContainer rotated
 	 * 90° counterclockwise, the DisplayObjectContainer's children inherit a coordinate system that is rotated 90°
 	 * counterclockwise. The object's coordinates refer to the registration point position.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -142,7 +142,7 @@ extern class DisplayObject extends EventDispatcher
 	/**
 	 * Indicates the horizontal scale (percentage) of the object as applied from the registration point.
 	 * The default 1.0 equals 100% scale.
-	 * @default 1
+	 * Default: 1
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -151,7 +151,7 @@ extern class DisplayObject extends EventDispatcher
 	/**
 	 * Indicates the vertical scale (percentage) of an object as applied from the registration point of the object.
 	 * The default 1.0 equals 100% scale.
-	 * @default 1
+	 * Default: 1
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -162,7 +162,7 @@ extern class DisplayObject extends EventDispatcher
 	 * Values from 0 to 180 represent clockwise rotation; values from 0 to -180 represent counterclockwise rotation.
 	 * Values outside this range are added to or subtracted from 360 to obtain a value within the range.
 	 * For example, the statement myDisplayObject.rotation = 450 is the same as myDisplayObject.rotation = 90.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -214,7 +214,7 @@ extern class DisplayObject extends EventDispatcher
 	
 	/**
 	 * X represents the object of which is the anchor.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -222,7 +222,7 @@ extern class DisplayObject extends EventDispatcher
 	
 	/**
 	 * Y represents the object of which is the anchor.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -232,7 +232,7 @@ extern class DisplayObject extends EventDispatcher
 	 * Whether or not the display object is visible.
 	 * Display objects that are not visible are disabled.
 	 * For example, if visible=false for an DisplayObject instance, it cannot receive touch or other user input.
-	 * @default true
+	 * Default: true
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -246,7 +246,7 @@ extern class DisplayObject extends EventDispatcher
 	 * The cacheAsBitmap property is best used with display objects that have mostly static content and that do not scale and
 	 * rotate frequently.
 	 * Note: The display object will not create the bitmap caching when the memory exceeds the upper limit,even if you set it to true.
-	 * @default false
+	 * Default: false
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -256,7 +256,7 @@ extern class DisplayObject extends EventDispatcher
 	 * Indicates the alpha transparency value of the object specified.
 	 * Valid values are 0 (fully transparent) to 1 (fully opaque). The default value is 1.
 	 * Display objects with alpha set to 0 are active, even though they are invisible.
-	 * @default 1
+	 * Default: 1
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -269,7 +269,7 @@ extern class DisplayObject extends EventDispatcher
 	 * events (or other user input events). Any children of this instance on the display list are not affected.
 	 * To change the touchEnabled behavior for all children of an object on the display list, use DisplayObjectContainer.touchChildren.
 	 * @see egret.DisplayObjectContainer#touchChildren
-	 * @default false
+	 * Default: false
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -301,7 +301,7 @@ extern class DisplayObject extends EventDispatcher
 	 * A value from the BlendMode class that specifies which blend mode to use.
 	 * Determine how a source image (new one) is drawn on the target image (old one).
 	 * If you attempt to set this property to an invalid value, Egret runtime set the value to BlendMode.NORMAL.
-	 * @default BlendMode.NORMAL
+	 * Default: BlendMode.NORMAL
 	 * @see egret.BlendMode
 	 * @version Egret 2.4
 	 * @platform Web,Native

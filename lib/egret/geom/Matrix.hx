@@ -57,7 +57,7 @@ extern class Matrix extends HashObject
 	
 	/**
 	 * The value that affects the positioning of pixels along the x axis when scaling or rotating an image.
-	 * @default 1
+	 * Default: 1
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -65,7 +65,7 @@ extern class Matrix extends HashObject
 	
 	/**
 	 * The value that affects the positioning of pixels along the y axis when rotating or skewing an image.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -73,7 +73,7 @@ extern class Matrix extends HashObject
 	
 	/**
 	 * The value that affects the positioning of pixels along the x axis when rotating or skewing an image.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -81,7 +81,7 @@ extern class Matrix extends HashObject
 	
 	/**
 	 * The value that affects the positioning of pixels along the y axis when scaling or rotating an image.
-	 * @default 1
+	 * Default: 1
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -89,7 +89,7 @@ extern class Matrix extends HashObject
 	
 	/**
 	 * The distance by which to translate each point along the x axis.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -97,7 +97,7 @@ extern class Matrix extends HashObject
 	
 	/**
 	 * The distance by which to translate each point along the y axis.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */

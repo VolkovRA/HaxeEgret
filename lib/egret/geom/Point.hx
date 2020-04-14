@@ -90,7 +90,7 @@ extern class Point extends HashObject
 	
 	/**
 	 * The horizontal coordinate.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -98,7 +98,7 @@ extern class Point extends HashObject
 	
 	/**
 	 * The vertical coordinate.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */

@@ -58,7 +58,7 @@ extern class Rectangle extends HashObject
 	
 	/**
 	 * The x coordinate of the top-left corner of the rectangle.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -66,7 +66,7 @@ extern class Rectangle extends HashObject
 	
 	/**
 	 * The y coordinate of the top-left corner of the rectangle.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -74,7 +74,7 @@ extern class Rectangle extends HashObject
 	
 	/**
 	 * The width of the rectangle, in pixels.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
@@ -82,7 +82,7 @@ extern class Rectangle extends HashObject
 	
 	/**
 	 * The height of the rectangle, in pixels.
-	 * @default 0
+	 * Default: 0
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
