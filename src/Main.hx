@@ -1,6 +1,7 @@
 package;
 
 import egret.*;
+import egret.display.*;
 import egret.events.*;
 import egret.geom.*;
 
@@ -11,6 +12,8 @@ class Main
 		// egret:
 		trace(IHashObject);
 		trace(HashObject);
+		
+		// events:
 		trace(Event);
 		trace(IEventDispatcher);
 		trace(EventDispatcher);
@@ -20,5 +23,9 @@ class Main
 		trace(Point);
 		trace(Rectangle);
 		trace(Matrix);
+		
+		// display:
+		trace(DisplayObject);
+		trace(BlendMode);
 	}
 }
