@@ -51,6 +51,7 @@ import egret.geom.Rectangle;
  * 											instance on which the contact was initiated on a touch-enabled device (such as presses and
  * 											releases a finger from a single point over a display object on a mobile phone or tablet
  * 											with a touch screen).
+ * 
  * @version Egret 2.4
  * @platform Web,Native
  * @author VolkovRA
