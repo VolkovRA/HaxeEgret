@@ -1,6 +1,7 @@
 package;
 
 import egret.*;
+import egret.geom.*;
 
 class Main
 {
@@ -14,6 +15,9 @@ class Main
 		trace(EventDispatcher);
 		trace(EventPhase.AT_TARGET);
 		
-		
+		// geom:
+		trace(Point);
+		trace(Rectangle);
+		trace(Matrix);
 	}
 }
