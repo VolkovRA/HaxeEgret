@@ -26,8 +26,10 @@ class Main
 		trace(Matrix);
 		
 		// display:
-		trace(DisplayObject);
 		trace(BlendMode.ADD);
+		trace(ChildrenSortMode.DECREASE_Y);
+		trace(DisplayObject);
+		trace(DisplayObjectContainer);
 		
 		// filters:
 		trace(Filter);
