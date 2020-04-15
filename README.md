@@ -3,8 +3,8 @@
 Description
 ------------------------------
 
-The Haxe externs of Egret game engine.
-See [official website](https://www.egret.com/ "Egret game engine") of Egret.
+The Haxe externs for Egret game engine.
+See [official website](https://www.egret.com/ "Egret game engine") for more about Egret.
 
 How to use
 ------------------------------
@@ -19,6 +19,7 @@ Include the Egret libraries in your project:
 ```
 <script src="/egret/egret.min.js"></script>
 <script src="/egret/res.min.js"></script>
+<script src="/egret/tween.min.js"></script>
 ```
 
 Adding library
@@ -48,3 +49,4 @@ See more information:
  * [Documentation HaxeDevelop](https://haxedevelop.org/configure-haxe.html "Configure Haxe")
  * [Egret home](https://www.egret.com/ "official web site")
  * [Egret API DOC](http://developer.egret.com/en/apidoc/ "Documentation of API")
+ * [Egret GitHub](https://github.com/egret-labs "Egret GitHub")
