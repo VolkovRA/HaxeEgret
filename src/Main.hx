@@ -30,9 +30,14 @@ class Main
 		trace(ChildrenSortMode.DECREASE_Y);
 		trace(StageScaleMode.EXACT_FIT);
 		trace(OrientationMode.LANDSCAPE);
+		trace(CapsStyle.NONE);
+		trace(GradientType.RADIAL);
+		trace(JointStyle.MITER);
+		trace(ScaleMode.NORMAL);
 		trace(DisplayObject);
 		trace(DisplayObjectContainer);
 		trace(Stage);
+		trace(Graphics);
 		
 		// filters:
 		trace(Filter);
