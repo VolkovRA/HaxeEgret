@@ -11,6 +11,8 @@ class Main
 {
 	static function main()
 	{
+		trace(Egret);
+		
 		// egret:
 		trace(IHashObject);
 		trace(HashObject);
