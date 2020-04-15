@@ -34,12 +34,17 @@ class Main
 		trace(GradientType.RADIAL);
 		trace(JointStyle.MITER);
 		trace(ScaleMode.NORMAL);
+		trace(BitmapFillMode.CLIP);
 		trace(DisplayObject);
 		trace(DisplayObjectContainer);
 		trace(Stage);
 		trace(Graphics);
 		trace(Shape);
 		trace(Sprite);
+		trace(Texture);
+		trace(RenderTexture);
+		trace(BitmapData);
+		trace(Bitmap);
 		
 		// filters:
 		trace(Filter);
