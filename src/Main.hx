@@ -39,6 +39,7 @@ class Main
 		trace(Stage);
 		trace(Graphics);
 		trace(Shape);
+		trace(Sprite);
 		
 		// filters:
 		trace(Filter);
