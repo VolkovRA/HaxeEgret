@@ -38,6 +38,7 @@ class Main
 		trace(DisplayObjectContainer);
 		trace(Stage);
 		trace(Graphics);
+		trace(Shape);
 		
 		// filters:
 		trace(Filter);
