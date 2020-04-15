@@ -5,6 +5,7 @@ import egret.display.*;
 import egret.events.*;
 import egret.filters.*;
 import egret.geom.*;
+import egret.utils.*;
 
 class Main
 {
@@ -53,5 +54,9 @@ class Main
 		trace(GlowFilter);
 		trace(DropShadowFilter);
 		trace(CustomFilter);
+		
+		// utils:
+		trace(Endian.BIG_ENDIAN);
+		trace(ByteArray);
 	}
 }
