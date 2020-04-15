@@ -6,6 +6,7 @@ import egret.events.*;
 import egret.filters.*;
 import egret.geom.*;
 import egret.utils.*;
+import egret.sys.*;
 
 class Main
 {
@@ -60,5 +61,8 @@ class Main
 		// utils:
 		trace(Endian.BIG_ENDIAN);
 		trace(ByteArray);
+		
+		// sys:
+		trace(SystemTicker);
 	}
 }
