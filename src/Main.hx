@@ -63,6 +63,7 @@ class Main
 		trace(BitmapData);
 		trace(Bitmap);
 		trace(BitmapText);
+		trace(TextField);
 		
 		// filters:
 		trace(Filter);
@@ -92,6 +93,8 @@ class Main
 		trace(BitmapFont);
 		trace(HorizontalAlign.LEFT);
 		trace(VerticalAlign.TOP);
+		trace(TextFieldType.INPUT);
+		trace(TextFieldInputType.TEL);
 		
 		// media:
 		trace(Video);
