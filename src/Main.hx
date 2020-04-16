@@ -65,6 +65,7 @@ class Main
 		trace(Endian.BIG_ENDIAN);
 		trace(ByteArray);
 		trace(SpriteSheet);
+		trace(Base64Util);
 		
 		// sys:
 		trace(SystemTicker);
