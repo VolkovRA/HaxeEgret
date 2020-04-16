@@ -24,6 +24,7 @@ class Main
 		// events:
 		trace(Event);
 		trace(TouchEvent);
+		trace(TimerEvent);
 		trace(IEventDispatcher);
 		trace(EventDispatcher);
 		trace(EventPhase.AT_TARGET);
