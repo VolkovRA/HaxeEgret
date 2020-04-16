@@ -25,6 +25,14 @@ class Main
 		trace(Event);
 		trace(TouchEvent);
 		trace(TimerEvent);
+		trace(FocusEvent);
+		trace(GeolocationEvent);
+		trace(HTTPStatusEvent);
+		trace(IOErrorEvent);
+		trace(MotionEvent);
+		trace(OrientationEvent);
+		trace(ProgressEvent);
+		trace(TextEvent);
 		trace(IEventDispatcher);
 		trace(EventDispatcher);
 		trace(EventPhase.AT_TARGET);
