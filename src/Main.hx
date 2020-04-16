@@ -66,6 +66,8 @@ class Main
 		trace(ByteArray);
 		trace(SpriteSheet);
 		trace(Base64Util);
+		trace(Capabilities.language);
+		trace(RuntimeType.BAIDUGAME);
 		
 		// sys:
 		trace(SystemTicker);
