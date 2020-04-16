@@ -9,6 +9,7 @@ import egret.sys.*;
 import egret.tween.*;
 import egret.text.*;
 import egret.utils.*;
+import egret.media.*;
 
 class Main
 {
@@ -80,5 +81,8 @@ class Main
 		trace(BitmapFont);
 		trace(HorizontalAlign.LEFT);
 		trace(VerticalAlign.TOP);
+		
+		// media:
+		trace(Video);
 	}
 }
