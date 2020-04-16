@@ -25,7 +25,7 @@ extern class DropShadowFilter extends GlowFilter
 	 */
 	public function new(	distance:Float	= 4,
 							angle:Float		= 45,
-							color:Float		= 0xff0000,
+							color:Int		= 0xff0000,
 							alpha:Float		= 1,
 							blurX:Float		= 6,
 							blurY:Float		= 6,

@@ -36,7 +36,7 @@ extern class Graphics extends HashObject
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
-	public function beginFill(color:Float, alpha:Float = 1):Void;
+	public function beginFill(color:Int, alpha:Float = 1):Void;
 	
 	/**
 	 * Specifies a gradient fill used by subsequent calls to other Graphics methods (such as lineTo() or drawCircle()) for the object.
@@ -91,7 +91,7 @@ extern class Graphics extends HashObject
 	 * @platform Web,Native
 	 */
 	public function lineStyle(	thickness:Float			= null,
-								color:Float				= 0x000000,
+								color:Int				= 0x000000,
 								alpha:Float				= 1.0,
 								pixelHinting:Bool		= false,
 								scaleMode:ScaleMode		= ScaleMode.NORMAL,

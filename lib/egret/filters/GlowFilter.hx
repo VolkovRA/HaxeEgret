@@ -23,7 +23,7 @@ extern class GlowFilter extends Filter
 	 * @version Egret 3.1.4
 	 * @platform Web
 	 */
-	public function new(	color:Float		= 0xff0000,
+	public function new(	color:Int		= 0xff0000,
 							alpha:Float		= 1,
 							blurX:Float		= 6,
 							blurY:Float		= 6,
@@ -39,7 +39,7 @@ extern class GlowFilter extends Filter
 	 * @version Egret 3.1.4
 	 * @platform Web
 	 */
-	public var color:Float;
+	public var color:Int;
 	
 	/**
 	 * The alpha transparency value for the color.
