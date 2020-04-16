@@ -79,6 +79,7 @@ class Main
 		trace(Base64Util);
 		trace(Capabilities.language);
 		trace(RuntimeType.BAIDUGAME);
+		trace(Timer);
 		
 		// sys:
 		trace(SystemTicker);
