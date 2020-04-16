@@ -51,6 +51,7 @@ class Main
 		trace(RenderTexture);
 		trace(BitmapData);
 		trace(Bitmap);
+		trace(BitmapText);
 		
 		// filters:
 		trace(Filter);
@@ -74,5 +75,7 @@ class Main
 		
 		// text:
 		trace(BitmapFont);
+		trace(HorizontalAlign.LEFT);
+		trace(VerticalAlign.TOP);
 	}
 }
