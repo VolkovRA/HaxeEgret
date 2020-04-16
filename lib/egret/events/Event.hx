@@ -26,13 +26,13 @@ extern class Event extends HashObject
 	/**
 	 * Creates an Event object to pass as a parameter to event listeners.
 	 * @param	type		The type of the event, accessible as Event.type.
-	 * @param	bubbles		Determines whether the Event object participates in the bubbling stage of the event flow. The default value is false.
-	 * @param	cancelable	Determines whether the Event object can be canceled. The default values is false.
+	 * @param	bubbles		Determines whether the Event object participates in the bubbling stage of the event flow.
+	 * @param	cancelable	Determines whether the Event object can be canceled.
 	 * @param	data		The optional data associated with this event.
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
-	public function new(type:String, ?bubbles:Bool, ?cancelable:Bool, ?data:Dynamic);
+	public function new(type:String, bubbles:Bool = false, cancelable:Bool = false, data:Dynamic = null);
 	
 	
 	
@@ -187,15 +187,15 @@ extern class Event extends HashObject
 	/**
 	 * Gets one event instance from the object pool or create a new one.
 	 * We highly recommend using the Event.create() and Event.release() methods to create and release an event object,
-	 * it can reduce the number of reallocate objects, which allows you to get better code execution performance.<br/>
+	 * it can reduce the number of reallocate objects, which allows you to get better code execution performance.
 	 * Note: If you want to use this method to initialize your custom event object,you must make sure the constructor
 	 * of your custom event is the same as the constructor of egret.Event.
 	 * @param	eventClass	eventClass Event Class.
 	 * @param	type		The type of the event, accessible as Event.type.
-	 * @param	bubbles		Determines whether the Event object participates in the bubbling stage of the event flow. The default value is false.
-	 * @param	cancelable	Determines whether the Event object can be canceled. The default values is false.
+	 * @param	bubbles		Determines whether the Event object participates in the bubbling stage of the event flow.
+	 * @param	cancelable	Determines whether the Event object can be canceled.
 	 */
-	static public function create(eventClass:Class<Event>, type:String, ?bubbles:Bool, ?cancelable:Bool):Dynamic;
+	static public function create(eventClass:Class<Event>, type:String, bubbles:Bool = false, cancelable:Bool = false):Dynamic;
 	
 	/**
 	 * Releases an event object and cache it into the object pool.We highly recommend using the Event.create()
@@ -226,7 +226,7 @@ extern class Event extends HashObject
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
-	static public function dispatchEvent(target:IEventDispatcher, type:String, ?bubbles:Bool, ?data:Dynamic):Bool;
+	static public function dispatchEvent(target:IEventDispatcher, type:String, bubbles:Bool = false, data:Dynamic = null):Bool;
 	
 	
 	
