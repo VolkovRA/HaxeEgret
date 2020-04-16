@@ -7,6 +7,7 @@ import egret.filters.*;
 import egret.geom.*;
 import egret.sys.*;
 import egret.tween.*;
+import egret.text.*;
 import egret.utils.*;
 
 class Main
@@ -70,5 +71,8 @@ class Main
 		// tween:
 		trace(Ease);
 		trace(Tween);
+		
+		// text:
+		trace(BitmapFont);
 	}
 }
