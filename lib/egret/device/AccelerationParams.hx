@@ -1,13 +1,13 @@
-package egret.utils;
+package egret.device;
 
 /**
- * A DeviceAcceleration object provides information about the amount of acceleration the device is experiencing along all three axes.
+ * A AccelerationParams object provides information about the amount of acceleration the device is experiencing along all three axes.
  * Acceleration is expressed in m/s2.
  * @version Egret 2.4
  * @platform Web
  * @author VolkovRA
  */
-typedef DeviceAccelerationParams =
+typedef AccelerationParams =
 {
 	/**
 	 * The amount of acceleration along the X axis.

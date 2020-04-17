@@ -1,7 +1,7 @@
 package egret.events;
 
-import egret.utils.DeviceAccelerationParams;
-import egret.utils.DeviceRotationRateParams;
+import egret.device.AccelerationParams;
+import egret.device.RotationRateParams;
 
 /**
  * MotionEvent represents the device's movement.
@@ -37,7 +37,7 @@ extern class MotionEvent extends Event
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
-	public var acceleration:DeviceAccelerationParams;
+	public var acceleration:AccelerationParams;
 	
 	/**
 	 * An object giving the acceleration of the device on the three axis X, Y and Z with the effect of gravity.
@@ -45,7 +45,7 @@ extern class MotionEvent extends Event
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
-	public var accelerationIncludingGravity:DeviceAccelerationParams;
+	public var accelerationIncludingGravity:AccelerationParams;
 	
 	/**
 	 * An object giving the rate of change of the device's orientation on the three orientation axis alpha, beta and gamma.
@@ -53,5 +53,5 @@ extern class MotionEvent extends Event
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */
-	public var rotationRate:DeviceRotationRateParams;
+	public var rotationRate:RotationRateParams;
 }

@@ -10,6 +10,7 @@ import egret.tween.*;
 import egret.text.*;
 import egret.utils.*;
 import egret.media.*;
+import egret.device.*;
 
 class Main
 {
@@ -98,5 +99,8 @@ class Main
 		
 		// media:
 		trace(Video);
+		
+		// device:
+		trace(DeviceOrientation);
 	}
 }

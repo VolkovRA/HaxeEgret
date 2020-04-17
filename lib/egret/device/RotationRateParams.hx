@@ -1,12 +1,12 @@
-package egret.utils;
+package egret.device;
 
 /**
- * A DeviceRotationRate object provides information about the rate at which the device is rotating around all three axes.
+ * A RotationRateParams object provides information about the rate at which the device is rotating around all three axes.
  * @version Egret 2.4
  * @platform Web
  * @author VolkovRA
  */
-typedef DeviceRotationRateParams =
+typedef RotationRateParams =
 {
 	/**
 	 * The amount of rotation around the Z axis, in degrees per second.
