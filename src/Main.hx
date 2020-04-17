@@ -100,6 +100,7 @@ class Main
 		trace(VerticalAlign.TOP);
 		trace(TextFieldType.INPUT);
 		trace(TextFieldInputType.TEL);
+		trace(HtmlTextParser);
 		
 		// media:
 		trace(Video);
