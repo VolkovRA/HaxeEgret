@@ -6,6 +6,7 @@ import egret.display.*;
 import egret.events.*;
 import egret.filters.*;
 import egret.geom.*;
+import egret.lifecycle.*;
 import egret.log.*;
 import egret.media.*;
 import egret.sys.*;
@@ -111,5 +112,8 @@ class Main
 		
 		// log:
 		trace(Logger);
+		
+		// lifecycle:
+		trace(LifecycleContext);
 	}
 }
