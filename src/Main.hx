@@ -122,5 +122,6 @@ class Main
 		trace(HttpMethod.GET);
 		trace(HttpResponseType.ARRAY_BUFFER);
 		trace(HttpRequest);
+		trace(ImageLoader);
 	}
 }
