@@ -14,6 +14,7 @@ import egret.sys.*;
 import egret.text.*;
 import egret.tween.*;
 import egret.utils.*;
+import res.*;
 
 class Main
 {
@@ -125,5 +126,10 @@ class Main
 		trace(ImageLoader);
 		trace(WebSocketType.BINARY);
 		trace(WebSocket);
+		
+		// res:
+		trace(ResourceItemType.SHEET);
+		trace(ResourceItem);
+		trace(ResourceEvent);
 	}
 }
