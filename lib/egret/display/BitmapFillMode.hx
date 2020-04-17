@@ -1,8 +1,8 @@
 package egret.display;
 
 /**
- * The BitmapFillMode class defines the image fill mode of Bitmap.
- * The BitmapFillMode class defines a pattern enumeration for adjusting size.
+ * The BitmapFillMode enum defines the image fill mode of Bitmap.
+ * The BitmapFillMode enum defines a pattern enumeration for adjusting size.
  * These patterns determine how Bitmap fill the size designated by the layout system.
  * @see http://edn.egret.com/cn/docs/page/134 Texture filling way
  * @version Egret 2.4

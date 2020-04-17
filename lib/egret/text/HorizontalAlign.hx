@@ -1,7 +1,7 @@
 package egret.text;
 
 /**
- * The HorizontalAlign class defines the possible values for the horizontal alignment.
+ * The HorizontalAlign enum defines the possible values for the horizontal alignment.
  * @see TextField#textAlign
  * @version Egret 2.4
  * @platform Web,Native

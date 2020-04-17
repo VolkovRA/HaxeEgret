@@ -1,7 +1,7 @@
 package egret.display;
 
 /**
- * The ChildrenSortMode class defines a pattern enumeration for children sort mode of egret.DisplayObjectContainer.
+ * The ChildrenSortMode enum defines a pattern enumeration for children sort mode of egret.DisplayObjectContainer.
  * @version Egret 5.2.19
  * @platform Native
  * @author VolkovRA

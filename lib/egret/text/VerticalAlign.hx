@@ -1,7 +1,7 @@
 package egret.text;
 
 /**
- * The VerticalAlign class defines the possible values for the vertical alignment.
+ * The VerticalAlign enum defines the possible values for the vertical alignment.
  * @see TextField#verticalAlign
  * @version Egret 2.4
  * @platform Web,Native
