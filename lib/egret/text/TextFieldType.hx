@@ -1,7 +1,7 @@
 package egret.text;
 
 /**
- * TextFieldType class is an enumeration of constant value used in setting the type property of the TextField class.
+ * TextFieldType enum is an enumeration of constant value used in setting the type property of the TextField class.
  * @version Egret 2.4
  * @platform Web,Native
  * @author VolkovRA

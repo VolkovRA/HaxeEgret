@@ -1,7 +1,7 @@
 package egret.display;
 
 /**
- * The CapsStyle class is an enumeration of constant values that specify the caps style to use in drawing lines.
+ * The CapsStyle enum is an enumeration of constant values that specify the caps style to use in drawing lines.
  * The constants are provided for use as values in the caps parameter of the Graphics.lineStyle() method.
  * @see Graphics#lineStyle()
  * @version Egret 2.5
