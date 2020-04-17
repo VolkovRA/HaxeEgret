@@ -9,6 +9,7 @@ import egret.geom.*;
 import egret.lifecycle.*;
 import egret.log.*;
 import egret.media.*;
+import egret.net.*;
 import egret.sys.*;
 import egret.text.*;
 import egret.tween.*;
@@ -115,5 +116,10 @@ class Main
 		
 		// lifecycle:
 		trace(LifecycleContext);
+		
+		// net:
+		trace(HttpMethod.GET);
+		trace(HttpResponseType.ARRAY_BUFFER);
+		trace(HttpRequest);
 	}
 }
