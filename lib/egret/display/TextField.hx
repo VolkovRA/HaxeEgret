@@ -165,7 +165,7 @@ extern class TextField extends DisplayObject
 	 * A Boolean value that indicates whether the text field word wrap.
 	 * If the value is true, then the text field by word wrap.
 	 * if the value is false, the text field by newline characters.
-	 * @default false
+	 * Default: false
 	 * @version Egret 2.4
 	 * @platform Web,Native
 	 */

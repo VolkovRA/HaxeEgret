@@ -119,7 +119,7 @@ extern class Stage extends DisplayObjectContainer
 	/**
 	 * Set the number of screens can simultaneously touch.
 	 * Above this amount will not be triggered in response.
-	 * @default 99
+	 * Default: 99
 	 */
 	public var maxTouches:Int;
 	
