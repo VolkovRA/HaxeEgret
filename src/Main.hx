@@ -105,5 +105,6 @@ class Main
 		
 		// device:
 		trace(DeviceOrientation);
+		trace(Motion);
 	}
 }
