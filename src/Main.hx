@@ -99,6 +99,8 @@ class Main
 		
 		// media:
 		trace(Video);
+		trace(Sound);
+		trace(SoundChannel);
 		
 		// device:
 		trace(DeviceOrientation);
