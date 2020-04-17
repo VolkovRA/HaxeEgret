@@ -6,6 +6,7 @@ import egret.display.*;
 import egret.events.*;
 import egret.filters.*;
 import egret.geom.*;
+import egret.log.*;
 import egret.media.*;
 import egret.sys.*;
 import egret.text.*;
@@ -107,5 +108,8 @@ class Main
 		trace(DeviceOrientation);
 		trace(Motion);
 		trace(Geolocation);
+		
+		// log:
+		trace(Logger);
 	}
 }
