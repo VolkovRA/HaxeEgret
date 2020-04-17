@@ -1,5 +1,6 @@
 package egret;
 
+import egret.sys.SystemTicker;
 import haxe.extern.Rest;
 import js.lib.Function;
 
@@ -19,6 +20,13 @@ import js.lib.Function;
 @:native("egret")
 extern class Egret 
 {
+	/**
+	 * Single heartbeat timer.
+	 * @version All
+	 * @platform Web,Native
+	 */
+	static public var ticker:SystemTicker;
+	
 	/**
 	 * Writes an error message to the console if the assertion is false.
 	 * If the assertion is true, nothing will happen.
