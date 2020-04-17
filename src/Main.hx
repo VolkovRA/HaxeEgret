@@ -123,5 +123,7 @@ class Main
 		trace(HttpResponseType.ARRAY_BUFFER);
 		trace(HttpRequest);
 		trace(ImageLoader);
+		trace(WebSocketType.BINARY);
+		trace(WebSocket);
 	}
 }
