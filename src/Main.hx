@@ -1,16 +1,16 @@
 package;
 
 import egret.*;
+import egret.device.*;
 import egret.display.*;
 import egret.events.*;
 import egret.filters.*;
 import egret.geom.*;
-import egret.sys.*;
-import egret.tween.*;
-import egret.text.*;
-import egret.utils.*;
 import egret.media.*;
-import egret.device.*;
+import egret.sys.*;
+import egret.text.*;
+import egret.tween.*;
+import egret.utils.*;
 
 class Main
 {
@@ -82,6 +82,7 @@ class Main
 		trace(Capabilities.language);
 		trace(RuntimeType.BAIDUGAME);
 		trace(Timer);
+		trace(NumberUtils);
 		
 		// sys:
 		trace(SystemTicker);
