@@ -8,8 +8,8 @@ import js.html.CanvasRenderingContext2D;
  */
 typedef RunEgretOptions =
 {
-	@:optional var renderMode:String;
-	@:optional var audioType:Float;
+	@:optional var renderMode:RenderMode;
+	@:optional var audioType:AudioType;
 	@:optional var screenAdapter:Dynamic;
 	@:optional var antialias:Bool;
 	@:optional var canvasScaleFactor:Float;
@@ -27,4 +27,44 @@ typedef RunEgretOptions =
 	@:optional var showFPS:Bool;
 	@:optional var showLog:Bool;
 	@:optional var fpsStyles:String;	
+}
+
+/**
+ * Engine render mode.
+ * @author VolkovRA
+ */
+@:enum abstract RenderMode(String) to String
+{
+	/**
+	 * Canvas render mode.
+	 */
+	var CANVAS = "canvas";
+	
+	/**
+	 * WEBGL Render mode.
+	 */
+	var WEBGL = "webgl";
+}
+
+/**
+ * The use of audio type.
+ * More information: https://www.cnblogs.com/martinl/p/6005424.html (China's lang!)
+ * @author VolkovRA
+ */
+@:enum abstract AudioType(Int) to Int
+{
+	/**
+	 * The default.
+	 */
+	var DEFAULT = 0;
+	
+	/**
+	 * Web audio.
+	 */
+	var WEB_AUDIO = 2;
+	
+	/**
+	 * Audio.
+	 */
+	var AUDIO = 3;
 }
