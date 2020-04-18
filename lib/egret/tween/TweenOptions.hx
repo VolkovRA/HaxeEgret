@@ -1,6 +1,6 @@
 package egret.tween;
 
-import js.lib.Function;
+import haxe.Constraints.Function;
 
 /**
  * Tween parameters, support loop, onChange, onChangeObj.

@@ -1,8 +1,8 @@
 package egret;
 
 import egret.sys.SystemTicker;
+import haxe.Constraints.Function;
 import haxe.extern.Rest;
-import js.lib.Function;
 
 /**
  * Egret framework.

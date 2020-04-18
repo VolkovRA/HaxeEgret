@@ -1,6 +1,6 @@
 package egret.events;
 
-import js.lib.Function;
+import haxe.Constraints.Function;
 
 /**
  * The EventDispatcher class is the base class for all classes that dispatchEvent events. The EventDispatcher class implements

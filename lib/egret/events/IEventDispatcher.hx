@@ -1,6 +1,6 @@
 package egret.events;
 
-import js.lib.Function;
+import haxe.Constraints.Function;
 
 /**
  * The IEventDispatcher interface defines methods for adding or removing event listeners, checks whether specific types

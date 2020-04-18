@@ -1,7 +1,7 @@
 package egret.tween;
 
 import egret.events.EventDispatcher;
-import js.lib.Function;
+import haxe.Constraints.Function;
 
 /**
  * Tween is the animation easing class of Egret.
